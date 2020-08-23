@@ -1,0 +1,24 @@
+﻿@model AYPatients.Models.ConcentrationUnit
+
+@{
+    ViewData["Title"] = "Details of a concentation";
+}
+
+<h1>Concentration Unit Details</h1>
+
+<div>
+    <h4>ConcentrationUnit</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ConcentrationCode) <!--column name-->
+        </dt>
+        <dd class="col-sm-10" style="padding-left:60px">
+            @Html.DisplayFor(model => model.ConcentrationCode) <!--column contents-->
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ConcentrationCode">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AYPatients", "AYPatients\AYPatients.csproj", "{1F1E96B9-DACA-4F78-BF85-79BF2C2AFB54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AYClassLibrary", "AYClassLibrary\AYClassLibrary.csproj", "{9BDF0939-3B2B-43E1-BD3A-C31F8ECB2BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F1E96B9-DACA-4F78-BF85-79BF2C2AFB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1E96B9-DACA-4F78-BF85-79BF2C2AFB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1E96B9-DACA-4F78-BF85-79BF2C2AFB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1E96B9-DACA-4F78-BF85-79BF2C2AFB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDF0939-3B2B-43E1-BD3A-C31F8ECB2BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDF0939-3B2B-43E1-BD3A-C31F8ECB2BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDF0939-3B2B-43E1-BD3A-C31F8ECB2BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDF0939-3B2B-43E1-BD3A-C31F8ECB2BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE18E0B-62E1-4826-80E9-A8D8CF919C89}
+	EndGlobalSection
+EndGlobal

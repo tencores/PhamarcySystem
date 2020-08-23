@@ -1,0 +1,67 @@
+﻿@model RoleAndUsers
+@{
+    ViewData["Title"] = "User In Role '" + ViewBag.RoleName + "'";
+    var roleId = ViewBag.roleId;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" asp-action="AddUser">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label>Users not in role:</label>
+        <select asp-for="UserName" class="col-md-4" asp-items="ViewBag.UsersNotInRole"></select>
+        <input value="@roleId" type="hidden" asp-for="RoleId" />
+        <input type="submit" value="Add To Role" class="btn btn-primary" />
+    </div>
+</form>
+
+@if (Model.UsersInThisRole.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    <label asp-for="@Model.UsersInThisRole[0].UserName" class="control-label"></label>
+                </th>
+                <th>
+                    <label asp-for="@Model.UsersInThisRole[0].Email" class="control-label"></label>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.UsersInThisRole.Count; i++)
+            {
+                <tr>
+                    <td>
+                        @Model.UsersInThisRole[i].UserName
+                    </td>
+                    <td>
+                        @Model.UsersInThisRole[i].UserName
+                    </td>
+                    <td>    
+                        @if (Model.RoleId!= roleId)
+                        {
+                            <form asp-action="RemoveUser" method="post">
+                                <input asp-for="RoleId" value="@roleId" type="hidden" />
+                                <input asp-for="UserName" value="@Model.UsersInThisRole[i].UserName" />
+                                <input class="btn btn-primary" type="submit" value="Remove" />
+                            </form>
+                        }
+                        else
+                        {
+                            
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <div>no users in this role</div>
+}
+
+<a asp-action="Index">Return to Role List</a>

@@ -1,0 +1,27 @@
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.deps.json
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.dll
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.pdb
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.csprojAssemblyReference.cache
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.AssemblyInfoInputs.cache
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.AssemblyInfo.cs
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.dll
+C:\Users\yangm\Desktop\prog2230\assignment4\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.pdb
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.deps.json
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.dll
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.pdb
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.csprojAssemblyReference.cache
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.AssemblyInfoInputs.cache
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.AssemblyInfo.cs
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.dll
+C:\Users\yangm\Desktop\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.pdb
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.deps.json
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.dll
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\bin\Debug\netcoreapp3.1\AYClassLibrary.pdb
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.csprojAssemblyReference.cache
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.AssemblyInfoInputs.cache
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.AssemblyInfo.cs
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.dll
+C:\Users\yangm\personal documents\personal\conestoga study\term2\prog2230\assignment5\AYPatients\AYClassLibrary\obj\Debug\netcoreapp3.1\AYClassLibrary.pdb

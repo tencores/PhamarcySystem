@@ -1,0 +1,22 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model List<IdentityUser>
+@{
+    ViewData["Title"] = $"Confirm Delte of Role '{ViewBag.roleName}'";
+    var roleID = ViewBag.roleID;
+}
+
+<h1>@ViewData["Title"]</h1>
+<h2>Users in the role</h2>
+<form method="post">
+    <ul>
+        @foreach (var user in Model)
+        {
+            <li>@user.UserName</li>
+        }
+    </ul>
+    <div>
+        <button asp-action="ConfirmDelte" asp-controller="AYRole" asp-route-id="@roleID" class="btn btn-primary"> Delete Confirmed</button>
+        <button asp-action="Index" asp-controller="AYRole" class="btn btn-primary">Cancel Delete</button>
+    </div>
+</form>
+<a asp-action="Index" asp-controller="AYRole" class="btn btn-primary">Return to List</a>

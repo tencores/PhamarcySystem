@@ -1,0 +1,53 @@
+﻿@model IEnumerable<AYPatients.Models.PatientTreatment>
+
+@{
+    ViewData["Title"] = "Treatments for " + @ViewData["diagnosis"] + " , Patient: " + @ViewData["patientName"];
+}
+
+    <h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DatePrescribed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comments)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientDiagnosis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Treatment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatePrescribed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comments,new { @rows=3})
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientDiagnosis.PatientDiagnosisId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Treatment.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PatientTreatmentId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PatientTreatmentId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PatientTreatmentId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
